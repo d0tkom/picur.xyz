@@ -17,12 +17,12 @@
           document.getElementById("seconds").innerText = Math.floor((distance % (minute)) / second);
 
         //do something later when date is reached
-        if (distance < 0) {
+        if (true) {
           let headline = document.getElementById("headline"),
               countdown = document.getElementById("countdown"),
               content = document.getElementById("content");
 
-          headline.innerText = "It's my birthday!";
+          headline.innerText = "Yeey!";
           countdown.style.display = "none";
           content.style.display = "block";
 
