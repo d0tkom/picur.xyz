@@ -1,26 +1,40 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>Hmm</title>
   <link rel="stylesheet" href="./style.css">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-TYV2D5KVG7"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
 
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-TYV2D5KVG7');
+  </script>
 </head>
+
 <body id="hmm" onclick='window.location = "./index.html"'>
-<!-- partial:index.partial.html -->
-<div class="container">
-  <h1 id="headline">Time since hmm:</h1>
-  <div id="countdown">
-    <ul>
-      <li><span id="days"></span>days</li>
-      <li><span id="hours"></span>Hours</li>
-      <li><span id="minutes"></span>Minutes</li>
-      <li><span id="seconds"></span>Seconds</li>
-    </ul>
+  <!-- partial:index.partial.html -->
+  <div class="container">
+    <h1 id="headline">Time since hmm:</h1>
+    <div id="countdown">
+      <ul>
+        <li><span id="days"></span>days</li>
+        <li><span id="hours"></span>Hours</li>
+        <li><span id="minutes"></span>Minutes</li>
+        <li><span id="seconds"></span>Seconds</li>
+      </ul>
+    </div>
   </div>
-</div>
-<!-- partial -->
-  <script  src="./hmm.js"></script>
+  <!-- partial -->
+  <script src="./hmm.js"></script>
 
 </body>
+
 </html>
