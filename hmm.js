@@ -4,7 +4,7 @@
         hour = minute * 60,
         day = hour * 24;
 
-      let hmm = "Nov 25, 2020 20:00:00",
+      let hmm = "Dec 5, 2020 14:00:00",
         countUp = new Date(hmm).getTime(),
       x = setInterval(function() {    
 
